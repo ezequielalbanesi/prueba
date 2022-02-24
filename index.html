@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Emprendifly</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header id="header" >
+	<div class="imgHero">
+
+		<img src="img/Logo.png" alt="" class="logo">
+		<div class="contenedorH1">	
+				<h1>Digitalizacion para el crecimiento de tu negocio</h1>
+		</div>
+
+
+		<p class="parrafoTitulo">Escuchamos atentamente las necesidades de tu negocio y tus clientes, elaboramos y ejecutamos un plan de acción para lograr los resultados que esperas.</p>
+		<a href="#form" class="botonReserva">Reservar</a>
+	</div>
+
+	
+
+
+</header><!-- /header -->
+<main>
+<section class="Seccion">
+	<h2>Nuestros Servicios</h2>
+
+	<div class="ContenedorCards">
+		<a href="">
+			<div class="cards">
+			
+			<img src="img/cm.png" alt="" class="logoCards">
+			<h4 class="textoCards">Community Manager</h4>
+		</div>
+		</a>
+
+		<a href="">
+			<div class="cards">
+				
+				<img src="img/dweb.png" alt="" class="logoCards">
+				<h4 class="textoCards">Diseño web en Wordpress</h4>
+			</div>
+		</a>
+
+		<a href="">
+		<div class="cards">
+			
+			<img src="img/predes.png" alt="" class="logoCards">
+			<h4 class="textoCards">Publicidad en Redes</h4>
+		</div>
+		</a>
+
+	</div>
+
+	<div class="ContenedorCards">
+		<a href="">
+			<div class="cards">
+				<img src="img/mercado.png" alt="" class="logoCards">
+				<h4 class="textoCards">Analisis de Mercado</h4>	
+			</div>
+		</a>
+
+		<a href="">
+				<div class="cards">
+					<img src="img/ux.png" alt="" class="logoCards">
+					<h4 class="textoCards">Diseño UX/UI y Customer Experience</h4>
+				</div>
+		</a>
+	</div>
+
+</section>
+
+
+<section class="Seccion2">
+	<h2>Consultorías Empresariales</h2>
+
+	<div class="card-container">
+	<div class="card mb-3" style="max-width: 80vw;">
+		<div class="row no-gutters">
+		  <div class="col-md-6">
+			<img src="img/consultoria1.png" class="card-img" alt="...">
+		  </div>
+		  <div class="col-md-6"  style="max-width: 648px;">
+			<div class="card-body">
+				<a href="" class="button-consultoria">Consultorías</a>
+			  <h5 class="card-title">Diseño de la Experiencia del cliente</h5>
+			  <p class="card-text">La experiencia del cliente (CX) es cómo se relaciona una empresa con sus clientes en todos los aspectos del recorrido de compra, desde el marketing hasta las ventas y el servicio al cliente pasando por cada punto intermedio. En gran parte, es la suma total de todas las interacciones que un cliente tiene con tu marca.</p><br>
+			  <a href="#form" class="button-agenda">Agendar  <img src="img/flecha.png" alt=""></a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+</div>
+
+<div class="card-container">
+	<div class="card mb-3" style="max-width: 80vw;">
+		<div class="row no-gutters">
+		  <div class="col-md-6">
+			<img src="img/consultoria2.png" class="card-img" alt="...">
+		  </div>
+		  <div class="col-md-6"  style="max-width: 648px;">
+			<div class="card-body">
+				<a href="" class="button-consultoria">Consultorías</a>
+			  <h5 class="card-title">Consultoría de Negocio</h5>
+			  <p class="card-text">Veremos como crear un plan de acción, estableciendo objetivos para el crecimiento de negocio.
+			<br>
+			Haremos seguimiento personalizado para optimizar procesos para que, al momento que tu negocio escale, los procesos no sean un problema.</p><br>
+			  <a href="#form" class="button-agenda">Agendar <img src="img/flecha.png" alt=""></a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+</div>
+
+</section>
+
+<section class="Seccion3">
+	<div class="seccion-container">
+	<div class="redes-container">
+		<h2>Contáctanos</h2>
+			<div class="logos-redes">
+				<ul>
+					<li><a href=""><img src="img/telefono.png" alt=""></a> +54 9 11 3611 7655</li>
+					<li><a href=""><img src="img/mail.png" alt=""></a> emprendifly@gmail.com</li>
+					<li><a href=""><img src="img/ubicacion.png" alt=""></a> Buenos Aires, Argentina</li>
+				</ul>
+			</div>
+			<div class="contacto-redes">
+				<a href="https://wa.me/5491136117655"><img src="img/whatsapp.png" alt=""></a>
+				<a href="https://www.instagram.com/emprendifly/"><img src="img/instagram.png" alt=""></a>
+				<a href=""><img src="img/linkedin.png" alt=""></a>
+
+			</div>		
+
+	</div>
+
+	<div class="form-container" id="form">
+		<form action="send.php" method="post">
+			<label for="servicios">Servicios</label>
+			<div class="servicios">
+			<input type="checkbox" name="servicios[]" value="community">Community Manager</input><br>
+    		<input type="checkbox" name="servicios[]" value="diseño">Diseño Web en Wordpress</input><br>
+   			<input type="checkbox" name="servicios[]" value="redes">Publicidad en Redes Sociales</input><br>
+    		<input type="checkbox" name="servicios[]" value="negocio">Consultoría de Negocio</input><br>
+			<input type="checkbox" name="servicios[]" value="cliente">Consultoría en Experiencia del Cliente</input><br>
+			<input type="checkbox" name="servicios[]" value="cliente">Diseño y creación de contenido para redes sociales</input><br>
+
+			</div>
+
+			<label for="name">Nombre Completo</label>
+			<input type="text" class="input-text" name="name">
+
+			
+			<label for="email">E-mail</label>
+			<input type="email" class="input-text" name="E-mail" required>
+
+			<label for="instagram">Usuario de Instagram</label>
+			<input type="text" class="input-text" name="usuario"><br>
+
+			<input type="submit" class="button-enviar" value="Enviar">
+		</form>
+	</div>
+</div>
+</section>
+
+<footer>
+	<p>© 2022 Emprendifly. Todos los derechos reservados.</p>
+</footer>
+
+
+<script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript" charset="utf-8" async defer></script>	
+</body>
+</html>
